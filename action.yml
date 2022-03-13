@@ -1,0 +1,8 @@
+name: Javascript Test
+description: Test action to see the steps
+
+runs:
+  using: 'node16'
+  pre: 'dist/pre/index.js'
+  main: 'dist/index.js'
+  post: 'dist/post/index.js'
